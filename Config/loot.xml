@@ -640,20 +640,20 @@ A single player on default diff can have a GS of up to 480 without perks.
 </lootgroup>
 
 <lootgroup name="modMeleeT1" count="1">
-	<item name="modMeleeClubBurningShaft"/>
 	<item name="modMeleeSerratedBlade"/>
 	<item name="modMeleeStructuralBrace"/>
 	<item name="modMeleeWeightedHead"/>
 </lootgroup>
 
 <lootgroup name="modMeleeT2" count="1">
+	<item name="modMeleeClubBurningShaft"/>
 	<item name="modMeleeClubBarbedWire"/>
+	<item name="modMeleeFortifyingGrip"/>
 </lootgroup>
 
 <lootgroup name="modMeleeT3" count="1">
 	<item name="modMeleeClubMetalSpikes"/>
 	<item name="modMeleeErgonomicGrip"/>
-	<item name="modMeleeFortifyingGrip"/>
 	<item name="modMeleeTemperedBlade"/>
 </lootgroup>
 
@@ -707,29 +707,32 @@ A single player on default diff can have a GS of up to 480 without perks.
 
 <lootgroup name="modArmorT1" count="1">
 	<item name="modArmorHelmetLight"/>
-	<item name="modArmorWaterPurifier"/>
-	<item name="modArmorImpactBracingSchematic"/>
-	<item name="modArmorBandolier"/>
 	<item name="modArmorInsulatedLiner"/>
 	<item name="modArmorCoolingMesh"/>
-	<item name="modArmorPlasticPlating"/>
 	<item name="modArmorReinforcedPadding"/>
 	<item name="modArmorScrapPlating"/>
-	<item name="modArmorIronPlating"/>
-	<item name="modArmorImprovedFittings"/>
 	<item name="modArmorStoragePocket"/>
-	<item name="modArmorDoubleStoragePocket"/>
-	<item name="modArmorMuffledConnectors"/>
+	<item name="modArmorImprovedFittings"/>
 </lootgroup>
 
 <lootgroup name="modArmorT2" count="1">
-	<item name="modRadiationReady"/>
-	<item name="modYoureFired"/>
+	<item name="modArmorWaterPurifier"/>
+	<item name="modArmorImpactBracingSchematic"/>
+	<!--<item name="modRadiationReady"/>-->
+	<!--<item name="modYoureFired"/>-->
+	<item name="modArmorPlasticPlating"/>
+	<item name="modArmorIronPlating"/>
+	<item name="modArmorAdvancedMuffledConnectors"/>
+	<item name="modArmorDoubleStoragePocket"/>
+	<item name="modArmorCustomizedFittings"/>
+</lootgroup>
+
+<lootgroup name="modArmorT3" count="1">
+	<item name="modArmorBandolier"/>
+	<item name="modArmorTripleStoragePocket"/>
 	<item name="modArmorMilitaryPlating"/>
 	<item name="modArmorSteelPlating"/>
-	<item name="modArmorCustomizedFittings"/>
-	<item name="modArmorTripleStoragePocket"/>
-	<item name="modArmorAdvancedMuffledConnectors"/>
+	<item name="modArmorMuffledConnectors"/>
 </lootgroup>
 
 <lootgroup name="modAllT1" count="1">
@@ -747,6 +750,7 @@ A single player on default diff can have a GS of up to 480 without perks.
 	<item group="modGunMeleeT3"/>
 	<item group="modGunMeleeT3"/>
 	<item group="modGunT3"/>
+	<item group="modArmorT3"/>
 </lootgroup>
 
 
@@ -818,6 +822,7 @@ A single player on default diff can have a GS of up to 480 without perks.
 	<item name="modMeleeFortifyingGripSchematic"/>
 	<item name="modMeleeClubBarbedWireSchematic"/>
 	<item name="modMeleeClubMetalSpikesSchematic"/>
+	<item name="modMeleeClubBurningShaftSchematic"/>
 	<!-- <item name="gunCrossbowSchematic"/>
 	<item name="meleeToolHuntingKnifeSchematic"/>
 	<item name="gunHuntingRifleSchematic"/>
