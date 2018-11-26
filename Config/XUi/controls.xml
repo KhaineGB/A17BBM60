@@ -303,15 +303,15 @@
 
 			<texture depth="3" name="backgroundTexture" material="Materials/Transparent Colored" size="58,58" globalopacity="true"/>
 			
-			<sprite depth="4" name="itemIcon" width="55" height="38" atlas="ItemIconAtlas" sprite="{itemicon}" pos="30,-25" pivot="center" foregroundlayer="true" color="{iconcolor}" />
+			<sprite depth="4" name="itemIcon" width="50" height="33" atlas="ItemIconAtlas" sprite="{itemicon}" pos="25,-20" pivot="center" foregroundlayer="true" color="{iconcolor}" />
 			<sprite depth="8" name="lockTypeIcon" width="17" height="17" sprite="" pos="2,-2" foregroundlayer="true"/>
 			
-			<sprite depth="3" name="durabilityBackground" width="56" height="10" sprite="menu_empty3px" color="[darkGrey]" type="sliced" pos="1, -55" foregroundlayer="true"/>
-			<filledsprite depth="4" name="durability" width="56" height="10" sprite="menu_empty2px" color="[transparent]" type="filled" pos="1, -55" foregroundlayer="true"/>
+			<sprite depth="3" name="durabilityBackground" width="56" height="7" sprite="menu_empty3px" color="[darkGrey]" type="sliced" pos="1, -50" foregroundlayer="true"/>
+			<filledsprite depth="4" name="durability" width="56" height="7" sprite="menu_empty2px" color="[transparent]" type="filled" pos="1, -50" foregroundlayer="true"/>
 			
 			<sprite depth="5" name="disabledOverlay" width="57" height="57" color="[darkGrey_half_alpha]" pos="1,-1" type="sliced" visible="false"/>
 			
-			<label depth="7" name="stackValue" pos="-2,-40" width="55" height="21" text="{itemcount}" font_size="18" effect="outline" justify="center" />
+			<label depth="7" name="stackValue" pos="-2,-40" width="55" height="17" text="{itemcount}" font_size="18" effect="outline" justify="center" />
 			<label depth="7" name="timer" pos="35,-33" width="55" height="21" font_size="18" justify="center" pivot="center" effect="outline" color="[beige]"/>
 			<sprite depth="9" name="cancel" sprite="ui_game_symbol_x" width="55" height="55" color="255,0,0,255" type="sliced" visible="false" foregroundlayer="true"/>
 			<!--#$-IGS BEGIN: Setting itemName above the soft cursor. -$#-->
